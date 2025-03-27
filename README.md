@@ -119,8 +119,6 @@ npx prisma generate
 ---
 
 ## *Monitoring and Logging*
-- *Error Logging:* Sentry
-- *API Monitoring:* Prometheus or Grafana
 - *CI/CD:* Automated deployments using GitHub Actions
 
 ---
