@@ -1,4 +1,8 @@
 ## Quiz Generation Platform Documentation
+### MORE DETAILS
+[report]("https://drive.google.com/file/d/1wCk1jf_65MIx6r-KRofCDZDGnhbJke0q/view?usp=sharing")
+[ppt]("https://docs.google.com/presentation/d/1HCODx-pdDCgsiYN4XEVxk1SpXpX1-K-r/edit?usp=sharing&ouid=110942945566615179747&rtpof=true&sd=true")
+[demo video]("https://youtu.be/MKSu4fnb8X0")
 
 ### *Overview*
 This platform generates quiz questions based on user-provided topics using Gemini-1.5-Flash. The application consists of a frontend built with Next.js, a backend using server actions, and PostgreSQL as the database, managed through Prisma.
@@ -34,7 +38,6 @@ Additionally, the platform tracks user success rates and provides a leaderboard.
   - quizzes: Stores generated quizzes.
   - user_attempts: Tracks user quiz progress.
   - leaderboard: Maintains user rankings.
-  - ai_feedback: Stores AI-generated tips and explanations.
 
 ---
 
@@ -48,9 +51,6 @@ Additionally, the platform tracks user success rates and provides a leaderboard.
   - AI provides explanations for wrong answers.
   - Tracks user mistakes for performance improvement.
 
-- *Recommendation System*
-  - Suggests relevant topics for users based on performance.
-
 ---
 
 ### 5. *Integration with Frontend*
@@ -59,7 +59,6 @@ Additionally, the platform tracks user success rates and provides a leaderboard.
 - *Server Actions:* Integrated directly using Next.js Server Actions instead of API routes
 - *Authentication:* Next-Auth
 - *Leaderboard Management:* Data is fetched using Prisma ORM
-- *AI Feedback Display:* Personalized feedback generated using server actions
 - *Charts and Animations:* Visualize user progress with Framer Motion and Radix UI
 
 ---
@@ -79,7 +78,6 @@ Additionally, the platform tracks user success rates and provides a leaderboard.
   \[ Accuracy Rate = (Correct Answers / Total Questions Answered) \]
 - *Drop-off Rate:* Monitors incomplete quizzes.
 - *Leaderboard Impact:* Tracks motivation based on leaderboard participation.
-- *AI Feedback Effectiveness:* Tracks improvements in user accuracy based on AI feedback.
 
 ---
 
@@ -124,4 +122,4 @@ npx prisma generate
 ---
 
 ## *Conclusion*
-This pipeline ensures efficient data handling, AI-powered quiz generation, user management, and a responsive frontend. Continuous monitoring and evaluation ensure the system remains performant and scalable. Enhanced AI feedback and personalized recommendations improve the user experience, making the platform engaging and educational.
+This pipeline ensures efficient data handling, AI-powered quiz generation, user management, and a responsive frontend. Continuous monitoring and evaluation ensure the system remains performant and scalable.  Improves the user experience, making the platform engaging and educational.
