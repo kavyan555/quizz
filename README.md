@@ -1,8 +1,15 @@
 ## Quiz Generation Platform Documentation
-### MORE DETAILS
-[report]("https://drive.google.com/file/d/1wCk1jf_65MIx6r-KRofCDZDGnhbJke0q/view?usp=sharing")
-[ppt]("https://docs.google.com/presentation/d/1HCODx-pdDCgsiYN4XEVxk1SpXpX1-K-r/edit?usp=sharing&ouid=110942945566615179747&rtpof=true&sd=true")
-[demo video]("https://youtu.be/MKSu4fnb8X0")
+### MORE DETAILS  
+
+#### 📄 Report  
+[![Report](https://img.shields.io/badge/View-Report-blue)](https://drive.google.com/file/d/1wCk1jf_65MIx6r-KRofCDZDGnhbJke0q/view?usp=sharing)  
+
+#### 📊 Presentation  
+[![Presentation](https://img.shields.io/badge/View-Presentation-orange)](https://docs.google.com/presentation/d/1HCODx-pdDCgsiYN4XEVxk1SpXpX1-K-r/edit?usp=sharing&ouid=110942945566615179747&rtpof=true&sd=true)  
+
+#### 🎥 Demo Video  
+[![Watch the demo](https://img.youtube.com/vi/MKSu4fnb8X0/maxresdefault.jpg)](https://youtu.be/MKSu4fnb8X0)  
+
 
 ### *Overview*
 This platform generates quiz questions based on user-provided topics using Gemini-1.5-Flash. The application consists of a frontend built with Next.js, a backend using server actions, and PostgreSQL as the database, managed through Prisma.
